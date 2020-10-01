@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1266912119"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq &quot;-FiC:\Users\Arthur\Documents\Coding\Travail de Maturité\Edition6\version11\lib\x86_64-win64&quot; &quot;-FuC:\Users\Arthur\Documents\Coding\Travail de Maturité\Edition6\version2&quot; &quot;-FuC:\Users\Arthur\Documents\Coding\Travail de Maturité\Edition6\Version4&quot; -FuC:\lazarus\lcl\units\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64 -FuC:\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\lazarus\packager\units\x86_64-win64 &quot;-FuC:\Users\Arthur\Documents\Coding\Travail de Maturité\Edition6\version11\&quot; &quot;-FUC:\Users\Arthur\Documents\Coding\Travail de Maturité\Edition6\version11\lib\x86_64-win64\&quot; -dLCL -dLCLwin32 Freeman_Game.lpr"/>
+</CONFIG>

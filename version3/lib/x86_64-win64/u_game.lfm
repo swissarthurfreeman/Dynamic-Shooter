@@ -1,0 +1,10 @@
+object DynamicShooter: TDynamicShooter
+  Left = 373
+  Height = 309
+  Top = -938
+  Width = 404
+  Caption = 'DynamicShooter'
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '1.8.0.6'
+end

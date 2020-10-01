@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="17">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="41" Y="10"/>
+        <UsageCount Value="142"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="u_game.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DynamicShooter"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="U_Game"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="31"/>
+        <CursorPos X="35" Y="47"/>
+        <FoldState Value=" T3jP0J14223x"/>
+        <UsageCount Value="96"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="u_dynamicarray.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="U_DynamicArray"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="134"/>
+        <CursorPos X="18" Y="158"/>
+        <UsageCount Value="131"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="u_player.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="U_Player"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="49"/>
+        <CursorPos Y="49"/>
+        <UsageCount Value="61"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4321"/>
+        <CursorPos X="13" Y="4330"/>
+        <UsageCount Value="5"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4164"/>
+        <CursorPos Y="4180"/>
+        <UsageCount Value="9"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\lcl\extctrls.pp"/>
+        <UnitName Value="ExtCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="524"/>
+        <CursorPos X="22" Y="560"/>
+        <UsageCount Value="4"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="D:\Programmes\Development\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="901"/>
+        <CursorPos Y="940"/>
+        <UsageCount Value="5"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\components\lazutils\lazmethodlist.pas"/>
+        <UnitName Value="LazMethodList"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="279"/>
+        <CursorPos Y="308"/>
+        <UsageCount Value="6"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\lcl\customtimer.pas"/>
+        <UnitName Value="CustomTimer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="138"/>
+        <CursorPos Y="151"/>
+        <UsageCount Value="15"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2812"/>
+        <CursorPos Y="2831"/>
+        <UsageCount Value="15"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32object.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="387"/>
+        <CursorPos Y="407"/>
+        <UsageCount Value="15"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="144"/>
+        <CursorPos Y="165"/>
+        <UsageCount Value="7"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\Lazarus\Shootemup\Shootemup\U_GameBoard.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="6"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\Lazarus\Shootemup\Shootemup\U_Shutemup.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="315"/>
+        <CursorPos X="25" Y="77"/>
+        <UsageCount Value="6"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\..\to fix\unit1.pas"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="55"/>
+        <UsageCount Value="6"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2207"/>
+        <CursorPos X="4" Y="2212"/>
+        <UsageCount Value="7"/>
+      </Unit16>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="53" Column="21" TopLine="29"/>
+      </Position1>
+      <Position2>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="236" Column="33" TopLine="205"/>
+      </Position2>
+      <Position3>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="253" Column="33" TopLine="222"/>
+      </Position3>
+      <Position4>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="276" Column="10" TopLine="245"/>
+      </Position4>
+      <Position5>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="351" Column="13" TopLine="259"/>
+      </Position5>
+      <Position6>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="360" Column="13" TopLine="268"/>
+      </Position6>
+      <Position7>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="393" Column="10" TopLine="363"/>
+      </Position7>
+      <Position8>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="398" Column="17" TopLine="368"/>
+      </Position8>
+      <Position9>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="478" Column="34" TopLine="447"/>
+      </Position9>
+      <Position10>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="487" Column="45" TopLine="468"/>
+      </Position10>
+      <Position11>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="52" Column="33" TopLine="34"/>
+      </Position11>
+      <Position12>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="53" Column="33" TopLine="34"/>
+      </Position12>
+      <Position13>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="241" Column="47" TopLine="217"/>
+      </Position13>
+      <Position14>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="132" Column="41" TopLine="105"/>
+      </Position14>
+      <Position15>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="44" Column="23" TopLine="32"/>
+      </Position15>
+      <Position16>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="156" Column="35" TopLine="96"/>
+      </Position16>
+      <Position17>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="431" Column="19" TopLine="410"/>
+      </Position17>
+      <Position18>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="435" Column="19" TopLine="414"/>
+      </Position18>
+      <Position19>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="439" Column="19" TopLine="418"/>
+      </Position19>
+      <Position20>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="456" Column="46" TopLine="446"/>
+      </Position20>
+      <Position21>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="44" Column="23" TopLine="32"/>
+      </Position21>
+      <Position22>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="179" Column="18" TopLine="165"/>
+      </Position22>
+      <Position23>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="44" Column="23" TopLine="26"/>
+      </Position23>
+      <Position24>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="156" Column="35" TopLine="87"/>
+      </Position24>
+      <Position25>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="431" Column="19" TopLine="401"/>
+      </Position25>
+      <Position26>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="435" Column="19" TopLine="405"/>
+      </Position26>
+      <Position27>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="439" Column="19" TopLine="409"/>
+      </Position27>
+      <Position28>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="456" Column="32" TopLine="431"/>
+      </Position28>
+      <Position29>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="44" Column="23" TopLine="26"/>
+      </Position29>
+      <Position30>
+        <Filename Value="u_game.pas"/>
+        <Caret Line="184" Column="88" TopLine="155"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="1">
+      <Item1>
+        <Expression Value="if (Ennemi.getImageAt(i).top &lt;= Joueur.getImageAt(0).top + Joueur.getImageAt(0).height div 2) and"/>
+      </Item1>
+    </Watches>
+  </Debugging>
+</CONFIG>

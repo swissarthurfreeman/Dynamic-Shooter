@@ -1,0 +1,176 @@
+Versions:
+1.1. 
+-Le personnage peut se déplacer et les collisions de celui-ci avec les murs fonctionnent.
+1.2.
+-Le personnage peut tirer, mais le tableau Dynamique ne fonctionne pas à partir d'un certain nombre de tirs.
+1.3.
+-Ajout du concept de la classe pour les tableaux dynamiques.
+-Le personnage peut tirer et les collisions des tirs sont détéctées, mais les tirs ne sont pas supprimés.
+1.4.
+-Les tirs fonctionnent mais ne sont pas supprimés du tableau lorsqu'en dehors du cadre.
+-Les tirs sont dorénavant gérés entièrement dans la classe TDynamicArray.
+1.5.
+-Les tirs sont dorénavant supprimés du tableau.
+-Les tirs détectent les collisions mais un tir n'est pas supprimé correctement.
+1.6.
+-Les tirs fonctionnent, et sont supprimés correctement. Le bug du tir non supprimé était dû à un problème dans les boucles.
+1.7.
+-Ajout du premier type d'ennemis, tableau dynamique qui fonctionne parfaitement.
+1.8.
+-Détection des collisions entre les tirs et les ennemis.
+1.9.
+-Supression des ennemis lors de la détection de tir.
+-Les ennemis ont dorénavant de la vie.
+1.10.
+-Ajout des deuxièmes et troisièmes tirs, avec collisions et les ennemis détectent les tirs. Cela c'est fait en quelques lignes grâce aux classes.
+-Ajout du fond animé. (http://hubblesite.org/images/gallery)
+1.11.
+-Ajout de l'inertie de déplacement du joueur.
+1.12.
+-Ajout des deux derniers types d'ennemis, pour un total de trois types d'ennemis.
+2.1.
+-Ajout de tirs au premier type d'ennemis, mais les collisions des tirs ne fonctionnent plus,
+-Certains tirs sont supprimés du tableau dynamique avant d'avoir atteint le bord du cadre.
+-La solution à ce problème a étée de créer une nouvelle procédure du supression des tirs ennemis, qui supprime les
+-tirs uniquement lorsqu'il sont 200 pixels au-délà de la taille maximale du form.
+-Problème: Le jeu se mets à tourner au ralenti après quelques minutes. Une solution possible est de diviser le jeu
+-en stages de durée maximale, pour éviter d'avoir une utilisation du CPU trop grande qui ne fait que grimper...
+-Modification: Appel des procédures en rapport avec les tableaux uniquement en cas de tirs.
+-Maintenant 30% du CPU est utilisé après 4 minutes au lieu d'une, sans jouer.
+2.2.
+-Le joueur peut maintenant prendre des dégats de la part des tirs ennemis.
+2.3.
+-Ajout du type TPlayer, qui permettra l'implementation d'un deuxième joueur.
+2.4.
+-Tous les ennemis peuvent dorénavant tirer.
+2.5.
+-Implementation des procédures destroy, pour vider les tableaux au besoin. Ne fonctionne pas encore.
+2.6.
+-Immense optimisation, il y a dorénavant trois tableaux dynamiques, un pour les tirs ennemis, un pour les tirs du joueur et un pour les ennemis.
+-Au lieu de un tableau par tir, ennemi et tirennemi, en utilisant des paramètres on se débarasse de cet excès.
+2.7.
+-Problème de CPU réglé, grâce à l'ajout d'un destroy simple sur les éléments à supprimer.
+2.8.
+-Ajout de la séquence de réparation à bord du vaisseau. Pour l'instant des systèmes à réparer se génèrent sans rien d'autre.
+2.9.
+-Création de la classe TPlayer, avec un tableau de joueurs dans une classe. Transfert de code depuis l'unit1 jusqu'au nouvel unit.
+2.10.
+-Transfert de code.
+2.11.
+-Création de procédure EnDehors, qui gère les collisions avec le cadre des ennemis, des tirs du joueur et des tirsEnnemis.
+2.12.
+-Bug: J'accède à une image qui n'existe pas, correction grâce à Alan, solution: NumberElement.
+3.1.
+-Transfert de code OOP.
+3.2.
+-Renommage des classes et des units.
+3.3.
+-On essaye de combiner les procédures de collisions entre TDynamicArray et TPlayer.
+3.4.
+-Il y a dorénavant plus qu'une procédure pour faire apparaître les tirs des ennemis et des joueurs.
+3.5.
+-Optimisation, il n'y a plus que deux procédures de collisions.
+3.6.
+-
+3.7.
+-Optimisation, il n'y a plus qu'une procédure de collision, à laquelle on passe des images en paramètre.
+3.10.
+-Le deuxième joueur fonctionne parfaitement avec toutes les procédures appropriées.
+3.11.
+-Nouvelle optimisation, les collisions sont dorénavant gérées toutes par la même procédure.
+3.12.
+-Ajout de vitesses différentes entre les ennemis.
+Bug: J'accède à une entrée inexistante et je reçois une erreur, erreur inexplicable qui, il semblerait est propre à Lazarus...
+4.3.
+-Ajout du laser avec cooldown, fonctionne parfaitement. Supression de la classe TPowers, rendait la chose plus compliquée, il aurait fallu faire de l'héritage.
+4.3.
+-Ajout de l'attaque des mines.
+4.4.
+-Ajout de l'invisibilité.
+4.5.
+(...)
+4.7.
+-Ajout du boss.
+4.8.
+-Ajout des tirs du boss.
+-Optimisation: On choisit les vitesses des mines via trigonométrie.
+-Bug: Seulement 6 mines au lieu de 9 s'affichent.
+-En augmentant la taille du tableau on arrive à faire en sorte qu'ils apparaissent normalement.
+4.9.
+-Ajout des menus.
+4.10.
+-Configuration des menus pour le deuxième joueur.
+4.11.
+-
+4.12.
+-
+5.1.
+-Mise des procédures de powers dans la classe PlayerObject plutôt que dans le form.
+-Cela est plus logique.
+-Réparation du bug des réparages des systèmes, via une variable réparation initialisée
+à vrai.
+5.2.
+-(...)
+5.3.
+-Ajout d'un store ou l'on peut réduire l'intervalle de temps entre chaque tir et ajouter des lasers.
+-Procéduralisation du jeu, on change les paramètres en fonction du score.
+5.4.
+-Les ennemis detectent les collisions avec les murs.
+-La séquence de réparation peut maintenant être terminée.
+5.4.
+-Ajout de plus de systèmes à réparer, ajout d'un countdown pour la séquence de réparation.
+-Problème:Le jeu est horriblement dur.
+Bug:Lorsque l'on meurt dans la séquence de réparation et qu'on rejoue la vitesse du joueur est doublée.
+Bug:Lorsque l'on meurt dans le stage du boss le joueur ne disparaît pas.
+6.1-6.5 (...)
+-
+6.6.
+-Repositionnement des labels.
+6.7.
+-Ajout du tableau de scores, en réutilisant du code d'un ancient projet.
+-Pour réparer le bug du fond qui ne défile pas, essayer de replacer les images lorsque l'on change la vitesse.
+6.8.
+-Bug réparé, on rends le scoreboard invisible lorsque l'on affiche le menu des controles.
+-Ajout du mode FreePlay.
+-Ajout d'icone charé au lancement.
+-Changement du nom des bouttons à labels.
+-Les ennemis disparaîssent derrière bottombar.
+-Le TMemo n'est plus modifiable.
+-On est maintenant forcé d'entrer un nom.
+6.9.
+-Optimisation des constantes.
+-Réorganisation du dossier ressources.
+6.10.
+-Réparation de l'affichage du labelBoss lorsque l'on appuyait sur le boutton boss.
+-Changement des couleurs du scoreboard.
+Bug: Le bouclier apparaît lorsque l'on entre dans le store.
+6.11.
+-Réparation du fond qui ne défilait pas correctement.
+6.12.
+-Expérimentation avec les gifs.
+
+7.1.
+-Ajout de l'histoire.
+-Bug: En réparant le placement des systèmes à réparer un nouveau bug est apparu ou la taille du tableau des spaceshipssystems est
+plus grande que le nombre affiché à l'écran. On en crée de façon chaotique.
+On en positionne au même endroit à chaque fois.
+-Bug réparé en envoyant le système staqué au fond pour que l'autre à réparer soit visible. Donc techniquement on répare deux
+systèmes staqqués l'un sur l'autre.
+-Ajout des dialogues.
+To Do:
+Lors de la destruction du boss: Faravel: Nooooooooooooooooonnnnnnnnnnnnnnnn!!!!!!!!!!!!!!!
+Lors de la victoire de Faravel: 'MUHAHAHAHAHAHAHA!!!!'
+7.6.
+-Débuggé entièrement les labels de dialogue.
+-Repositionné les tirs des joueurs/labels, ajout de l'animation des lasers du boss.
+7.7.
+(...)
+8.1.
+-Ajout des textures mises à jour.
+-Les nouveaux menus ont étés ajoutés.
+-Les textures de déplacement du joueur dans la séquence de réparation.
+-Les joueurs n'apparaissent plus empilés l'un sur l'autre.
+-Les joueurs ont des textures différentes.
+Bug: La texture de controles doit être mise à jour.
+
+
